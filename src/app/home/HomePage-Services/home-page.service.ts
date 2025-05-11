@@ -40,7 +40,7 @@ export class HomePageService {
     var user:User
     user={emailID:userEmailID, password:userPassword,usertype:type};
     console.log(user)
-    let result=this.http.post<number>('https://funcazappnew.azurewebsites.net/api/LoginFunction?code=NMpTYk96LsNcz4HMBAHsVS8BRe-mDaYRBwwbYIDue3YXAzFuaKzMCQ==',user)
+    let result=this.http.post<number>('https://funcazappnew.azurewebsites.net/api/LoginFunction?code=_SdjNEQqZYKW6rDEgIymYqw2WUx-oySU25RJVFn5WgGjAzFueuFDZQ==',user)
     return result
 
   }
